@@ -1,7 +1,7 @@
 FROM node:erbium-buster-slim
 
 LABEL "repository"="git@github.com:kainzs/action_docker.git"
-LABEL "maintainer"="tei.chae <tei.chae@kakao.com>"
+LABEL "maintainer"="kainzs <profit7326@gmail.com>"
 
 RUN set -eux ; \
     apt-get update -y; \
