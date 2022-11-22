@@ -1,6 +1,6 @@
 FROM node:erbium-buster-slim
 
-LABEL "repository"="https://github.com/teichae/github-action"
+LABEL "repository"="git@github.com:kainzs/action_docker.git"
 LABEL "maintainer"="tei.chae <tei.chae@kakao.com>"
 
 RUN set -eux ; \
